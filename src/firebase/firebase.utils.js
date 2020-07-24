@@ -2,15 +2,26 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+// const config = {
+//   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+//   authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+//   databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+//   projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+//   storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+//   messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+//   appId: process.env.REACT_APP_FIREBASE_APP_ID,
+//   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
+// }
+
 const config = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
-  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
+  apiKey: 'AIzaSyD6HXqI1fWogppqD9xOXVTrHaj56p5Y-S8',
+  authDomain: 'crown-db-4eb2b.firebaseapp.com',
+  databaseURL: 'https://crown-db-4eb2b.firebaseio.com',
+  projectId: 'crown-db-4eb2b',
+  storageBucket: 'crown-db-4eb2b.appspot.com',
+  messagingSenderId: '83133612118',
+  appId: '1:83133612118:web:acfb7ec2190f47c58c3bf7',
+  measurementId: 'G-KX3EHMP70R'
 }
 
 firebase.initializeApp(config);
